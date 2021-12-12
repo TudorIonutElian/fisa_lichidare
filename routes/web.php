@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/users/index', [HomeController::class, 'users'])->name('users.index');
+Route::get('/users/index', [HomeController::class, 'users'])->name('utilizatori.index');
 Route::get('/users/create', [HomeController::class, 'users'])->name('user.create');
 Route::get('/users/edit', [HomeController::class, 'users'])->name('user.edit');
 Route::get('/users/destroy', [HomeController::class, 'users'])->name('user.destroy');
